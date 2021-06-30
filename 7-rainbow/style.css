@@ -1,0 +1,46 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  row-gap: 1rem;
+  height: 100vh;
+  grid-template-rows: [header] auto [body] 2fr [footer] 1fr;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+.header__text {
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  list-style-type: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.shine-button {
+  place-self: center;
+  height: 100px;
+  width: 100px;
+}

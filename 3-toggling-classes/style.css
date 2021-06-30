@@ -1,0 +1,8 @@
+h1 {
+  transition: all 1s ease-out;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.super-header {
+  font-size: 60px;
+  color: yellowgreen;
+}

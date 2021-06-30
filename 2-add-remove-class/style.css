@@ -1,0 +1,16 @@
+h1,
+h2 {
+  transition: all 1s ease-in;
+}
+
+.super-header {
+  font-size: 60px;
+  color: yellowgreen;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.mini-header {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: slateblue;
+}

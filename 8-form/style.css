@@ -1,0 +1,46 @@
+.main {
+  height: 100vh;
+  background: darkseagreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.super-form {
+  background: seagreen;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.field-set {
+  background: darkseagreen;
+  border: none;
+  border-radius: 10px;
+  display: grid;
+  gap: 1em;
+}
+
+.field-set__legend {
+  color: white;
+  background-color: seagreen;
+}
+
+.field-set__group {
+  display: grid;
+  grid-template-columns: [label] 1fr [input] 6fr;
+}
+
+.field-set__group label {
+  justify-self: start;
+  color: whitesmoke;
+}
+
+.field-set__group input {
+  justify-self: start;
+}
+
+.submit-button {
+  height: 3rem;
+  width: 10rem;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 1rem;
+}
